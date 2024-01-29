@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Geração do Dia</title>
+    <link rel="stylesheet" href="screenStyle.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</head>
+<body>
+    <button type="button" id="menu" data-toggle="collapse" data-target="#demo">&#9776;</button>
+    <br>
+    <div class="col-lg-2 col-md-3 col-xs-6 col-sm-3 sidenav collapse" id="demo">
+        <ul class="nav nav-pills nav-stacked">
+            <li><a href="navigationScreen.html" class="active">Inicio</a></li>
+            <li><a href="generationOfTheDay.html-">Geração Diária</a></li>
+            <li><a href="#">Geração Mensal</a></li>
+            <li><a href="#">Configurações Técnicas</a></li>
+            <li><a href="#">Add Equipamentos</a></li>
+            <li><a href="#">Dicas de Economia</a></li>
+            <li><a href="#">Chat Bot</a></li>
+        </ul>
+    </div>
+    <div class="container">
+        <h2 style="display: inline;">Geração de Energia do Dia</h2>
+        <a href="#" style="float: right;">Mais detalhes técnicos</a>
+        
+     
+        <br><br>
+        <div class="box">
+            <span class="glyphicon glyphicon-chevron-left l"></span>
+            <span id="date">03/11/2023</span>
+            <span class="glyphicon glyphicon-chevron-right r"></span>
+           
+        </div>
+        <!--<div class="col-lg-2"><canvas id="grafic"></canvas></div>-->
+        
+        <div class="col-lg-12 box_group">
+            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 box_info">
+                <p>Consumo médio calculado</p>
+                
+                <b>37 kWh</b>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 box_info">
+                <p>Consumo médio calculado</p>
+                
+                <b>37 kWh</b>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 box_info">
+                <p>Consumo médio calculado</p>
+                
+                <b>37 kWh</b>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 box_info">
+                <p>Consumo médio calculado</p>
+                
+                <b>37 kWh</b>
+            </div>
+        </div>
+        
+        
+        
+        <div class="boxData">
+            <p>
+                Vamos entender como seu gráfico de geração do dia foi construído:
+                <br>
+                De acordo com os eletrodomésticos inseridos, sua média de consumo diária é de
+                    <br>
+                    <span id="mcd"><kbd>37kWh</kbd></span>
+                    <br>
+                    E hoje, sua usina conseguiu gerar
+                    <br>
+                    <span id="gd"><kbd>50kWh</kbd></span>
+                    <br><br>
+                    <b>Convertendo em R$, temos que </b>
+                    <br>
+                    você consome por dia 
+                    <br>
+                    <span id="mcdr"><kbd>R$ 33,30</kbd></span>
+                    <br>
+                    e sua usina gera por dia 
+                    <br>
+                    <span id="gdr"><kbd>R$ 45,00</kbd></span>
+                    <br>
+
+            </p>
+        </div>
+        
+        
+        
+    </div>
+
+
+
+    <footer>Protótipo App Web Monitoramento de Geração Fotovoltaica</footer>
+    <script src="../js/generationOfTheDay.js"></script>
+</body>
+</html>

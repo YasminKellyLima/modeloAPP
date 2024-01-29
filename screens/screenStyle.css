@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body{
+    margin: 30px;
+    font-family: 'Montserrat', sans-serif;
+    
+
+}
+
+#demo{
+    margin-top: 10px;
+    background-color: darkorange;
+   height: 1000px;
+   position: fixed;
+   border-radius: 15px;
+   z-index: 9999999;
+   
+}
+#menu{
+    background-color: darkorange;
+    border: 1px solid rgb(255, 255, 255);
+    width: 3rem;
+    height: 3rem;
+    color: white;
+    position: fixed;
+    z-index: 9999;
+    font-weight: 700;
+}
+#demo a{
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+#demo a:hover{
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+}
+footer{
+    bottom: 0;
+    position: fixed;
+    font-size: 0.9rem;
+    width: 100%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    line-height: 3;
+}
+h2{
+    font-size: 3rem;
+    font-weight: 700;
+
+}
+p{
+    font-size: 1.4rem;
+    text-align: justify;
+}
+
+
+h4{
+    background-color: darkorange;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: white;
+    padding: 5px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.line{
+    margin: auto;
+    background-color: darkorange;
+    width: 70px;
+    height: 3px;
+}
+.box{
+    width: 100%;   
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+    padding: 5px;
+    background-color: darkorange;
+    font-size: 1.4rem;
+}
+.box .l{
+    float: left;
+}
+.box .l:hover{
+    cursor: pointer;
+}
+.box .r{
+    float: right;
+}
+.box .r:hover{
+    cursor: pointer;
+}
+.box #date{
+   font-weight: 700;
+}
+.box:hover{
+    color: darkorange;
+    background-color: rgb(255, 255, 255);
+}
+.b{
+    
+    width: 250px;
+    height: 250px;
+    margin: auto;
+    box-shadow: 1px 1px 1.5px 1.5px rgba(0, 0, 0, 0.5);
+}
+canvas{
+    margin-top: 35px;
+}
+.boxData p{
+    text-align: center;
+}
+
+.box_group{
+    border: 1px double black;
+    font-size: 1rem;
+    padding:5px;
+}
+.box_group p{
+    font-weight: 800;
+    margin-bottom: 0;
+}
+.box_group b{
+    font-size: 1.5rem;
+    margin-top: 0;
+}
+.box_info{
+    background-color: rgba(204, 204, 204, 0.425);
+}
+.btn{
+    display: block;
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+    background-color: darkorange;
+    color: rgb(255, 255, 255);
+    border-style: none;
+    cursor: pointer;
+    width: 80%;
+    font-weight: 700;
+    height: 35px;
+    border-radius: 30px;
+    margin-top: 60px;
+}
+.list{
+   list-style: none; 
+   width: 100%;
+}
+.list li{
+    float: right;
+    position: relative;
+    padding: 10px;
+    
+}
+.list a{
+    background-color: darkorange;
+    padding: 10px 20px;
+    border-radius: 50px;
+    color: white;
+    font-size: 1.3rem;
+    
+}
+.everyDay{
+    border: 1px solid gray;
+    margin-top: 35px;
+    text-align: center;
+    font-weight: bold;
+}
+.graficD{
+    border: 1px solid gray;
+    width: 100%;
+    height: 250px;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+      <title>Inicio</title>
+    <link rel="stylesheet" href="screenStyle.css">
+</head>
+<body >
+    <!--
+    <button type="button" id="menu" data-toggle="collapse" data-target="#demo">&#9776;</button>
+    <br>
+    <div class="col-lg-2 col-md-3 col-xs-6 col-sm-3 sidenav collapse" id="demo">
+        <ul class="nav nav-pills nav-stacked">
+            <li><a href="navigationScreen.html" class="active">Inicio</a></li>
+            <li><a href="generationOfTheDay.html">Geração Diária</a></li>
+            <li><a href="#">Geração Mensal</a></li>
+            <li><a href="#">Configurações Técnicas</a></li>
+            <li><a href="#">Add Equipamentos</a></li>
+            <li><a href="#">Dicas de Economia</a></li>
+            <li><a href="#">Chat Bot</a></li>
+        </ul>
+    </div>-->
+    <div class="container">
+        <h1 style="color: darkorange; -wfonteight: bold; text-align: center;margin-bottom: 5px; font-size: 3rem;">SUA GERAÇÃO DE ENERGIA</h1>
+        <h1 style="color: darkorange; -wfonteight: bold; text-align: center;margin-bottom: 30px; font-size: 2.5rem;">POR MÊS</h1>
+       <!-- <ul class="list">
+            <li><a href="">Por Semana</a></li>
+            <li><a href="">Por Mês</a></li>
+            <li><a href="">Por Ano</a></li>
+        </ul>-->
+        <div class="everyDay">MM/AAAA</div>
+    <br>
+    <div class="alert alert-warning">
+        <strong>Atenção!</strong>Nesta tela você acompanha sua geração de energia durante um mês.
+      </div>
+        <img src="data:image/png;base64,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" alt="" class="graficD">
+        <a href="https://solarbridge.com.au/wp-content/uploads/2022/06/Datasheet-RS6-xxxMBG-E3-535-555-April-2022.pdf" style="font-size: 0.8rem; float: right;" target="_blank">Mais detalhes</a>
+
+        
+
+        <br><br>
+        <div class="alert alert-success">
+            <strong>Success!</strong> Sua usina gerou 100% da energia esperada.
+          </div>
+          <div class="alert alert-danger">
+            <strong>Alerta!</strong> Sua usina desconectou mais de 5 vezes e comprometeu o rendimento mensal.
+          </div>
+          <b>Vamos acompanhar sua geração de energia?</b>
+        <button onclick="day()" class="btn">Por Dia</button>
+        <button onclick="week()" class="btn">Por Semanal</button>
+        <button onclick="year()" class="btn">Por Ano</button>
+    </div>
+
+    <button style="position:fixed;width:60px;height:60px;bottom:40px;right:40px;background-color:darkorange;color:#FFF;border-radius:50px;text-align:center;font-size:14px;font-weight: BOLD;box-shadow: 1px 1px 2px #888;
+    z-index:1000; border:none;">CHAT</button>
+
+
+
+    <footer>Protótipo App Web Monitoramento de Geração Fotovoltaica</footer>
+    <script src="../js/navScreen.js"></script>
+</body>
+</html>
+
+
+
